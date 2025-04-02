@@ -1,8 +1,9 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    esmExternals: "loose",
-  },
-};
+    missingSuspenseWithCSRError: false
+  }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
